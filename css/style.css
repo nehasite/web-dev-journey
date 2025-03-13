@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+   background-color: rgb(28, 161, 39);
+   position:relative;
+   animation-name:box-anima ;
+   animation-duration:2s ;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+  animation-timing-function:linear;  
+}
+#box2{
+    height: 300px;
+    width: 300px;
+   background-color: red;
+   position:relative;
+   animation-name:box-anima ;
+   animation-duration:2s ;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+  animation-timing-function:ease-in-out ;
+}
+
+@keyframes box-anima {
+from{
+    left: 0;
+}
+to{
+    left: 80%; 
+}
+}

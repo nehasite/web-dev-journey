@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monument;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#box {
+    background-color: blue;
+    color: white;
+ }
+.heading{
+    color: red;
+}
+.btn{
+  background-color: blue;
+
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#box1{
+   font-size: 25px;
+   background-color: aqua;
+}
+#msn{
+    background-color: rgb(150, 208, 26);
+    font-size: 10px;
+}
+#greet{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.navdir{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    
+    height: 60px;
+    font-size: 22px;
+    gap: 20px;
+     align-items: center;
+     justify-content: center; 
+    
+    
+}
+.navdir div h1{
+    font-size: 15px;
+   margin-right: 200px;
+   color: orange;
+   cursor: pointer;
+}
+
+.navdir div ul{
+    font-size: 11px;
+    display: flex;
+   gap: 20px;
+   margin-right: 400px;
+   justify-content: space-between;
+
+  
+} 
+.navdir div ul li{
+    margin-right: 70px;
+     list-style-type: none;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.navdir button {
+   
+  padding: 2px 3px  ;
+  font-size: 12px;
+  font-style: oblique;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.navdir button:hover{
+    background-color: orange;
+    color: white;
+}
+.navdir div ul li:hover {
+    color: orange;
+  
+}
